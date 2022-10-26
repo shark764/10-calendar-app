@@ -19,12 +19,14 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "useDefineForClassFields": true
+    "useDefineForClassFields": true,
+    "types": ["node", "jest"]
   },
   "include": ["src"],
   "references": [
     {
       "path": "./tsconfig.node.json"
     }
-  ]
+  ],
+  "exclude": ["**/*.test.*", "**/__mocks__/*", "**/__tests__/*"]
 }

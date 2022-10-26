@@ -17,3 +17,8 @@ export interface FormCalEvent {
   start: Date;
   end: Date;
 }
+
+export enum Phase {
+  alpha = 'Alpha',
+  beta = 'Beta',
+}
